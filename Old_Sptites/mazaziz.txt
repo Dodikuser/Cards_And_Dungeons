@@ -1,0 +1,8 @@
+{Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, },
+{Black, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, Black, },
+{Black, Yellow, Black, Black, Black, Black, Black, Black, Yellow, Black, },
+{Black, Yellow, Black, Black, DarkGreen, Green, Black, Black, Yellow, Black, },
+{Black, Yellow, Black, Black, DarkGreen, DarkGreen, Black, Black, Yellow, Black, },
+{Black, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, DarkYellow, Black, },
+{Black, Yellow, Yellow, Yellow, Yellow, Yellow, Yellow, Yellow, Yellow, Black, },
+{Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, },

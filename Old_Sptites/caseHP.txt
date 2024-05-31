@@ -1,0 +1,8 @@
+{Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, },
+{Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, },
+{Red, Red, Red, Gray, Red, Red, Gray, Red, Red, Red, },
+{Red, Magenta, Gray, Gray, Magenta, Magenta, Gray, Gray, Magenta, Red, },
+{Black, Red, Red, Gray, Red, Red, Gray, Red, Red, Black, },
+{Black, Magenta, Magenta, Red, Cyan, Cyan, Red, Magenta, Magenta, Black, },
+{Black, Red, Red, Red, Red, Red, Red, Red, Red, Black, },
+{Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, },
