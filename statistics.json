@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 {
   "CountOfRuns": 74,
   "CountOfKills": 541,
   "CountOfPickUp": 806,
   "MaxDungeon": 13,
   "TimeSpent": 287
+=======
+{
+  "CountOfRuns": 74,
+  "CountOfKills": 541,
+  "CountOfPickUp": 806,
+  "MaxDungeon": 13,
+  "TimeSpent": 287
+>>>>>>> 12fa110b21928b31eb4877f8d5b5df0b12480307
 }

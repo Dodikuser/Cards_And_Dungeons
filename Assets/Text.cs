@@ -327,7 +327,8 @@ public class ConsoleText
             };
     }
 
-    public void DrawText(PixelSpawner PixelManager, string text, int startX, int startY, Color color, int scale, HashSet<Pixel> hashSet, int z = - 1, GameObject colliderCard = null)
+    public void DrawText(PixelSpawner PixelManager, string text, int startX, int startY, Color color, int scale, 
+                         HashSet<Pixel> hashSet, int z = - 1, GameObject colliderCard = null)
     {
         int x = startX;       
         int y = startY;

@@ -190,7 +190,6 @@ internal class SellLast : Sell
         else Value = "0";
         lastElement = (PixelSpawner.Inventory.CardInventory[2].Count != 0) ? PixelSpawner.Inventory.CardInventory[2][PixelSpawner.Inventory.CardInventory[2].Count - 1] : new Card(PixelManager, 0, 0, "0");
     }
-
     public override void Interactions()
     {
         if (PixelSpawner.Inventory.CardInventory[2] != null && PixelSpawner.Inventory.CardInventory[2].Count > 0)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {Black, Red, Black, Black, Black, Black, Black, Black, Black, Black, },
 {Black, Red, Red, Black, Black, Black, DarkRed, DarkRed, DarkRed, Black, },
 {Black, Black, Red, Red, Black, DarkRed, DarkRed, Black, Black, Black, },
@@ -6,3 +7,13 @@
 {Black, Black, DarkRed, DarkRed, Black, Black, Red, Red, Black, Black, },
 {Black, DarkRed, DarkRed, Black, Black, Black, Black, Red, Black, Black, },
 {Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, },
+=======
+{Black, Red, Black, Black, Black, Black, Black, Black, Black, Black, },
+{Black, Red, Red, Black, Black, Black, DarkRed, DarkRed, DarkRed, Black, },
+{Black, Black, Red, Red, Black, DarkRed, DarkRed, Black, Black, Black, },
+{Black, Black, Black, Red, DarkRed, DarkRed, Black, Black, Black, Black, },
+{Black, Black, Black, DarkRed, DarkRed, Red, Red, Black, Black, Black, },
+{Black, Black, DarkRed, DarkRed, Black, Black, Red, Red, Black, Black, },
+{Black, DarkRed, DarkRed, Black, Black, Black, Black, Red, Black, Black, },
+{Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, },
+>>>>>>> 12fa110b21928b31eb4877f8d5b5df0b12480307

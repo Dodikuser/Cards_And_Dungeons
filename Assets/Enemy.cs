@@ -27,56 +27,7 @@ public class Enemy : Card
     }
 
     public override void Interactions()
-    {
-        if (actionsForCard == actions.Hide)
-        {
-            MyAnimator.StartCoroutine(MyAnimator.ShowAnimation());
-
-        }
-        else if (actionsForCard == actions.Visible)
-        {
-            int thisValueEnemy = Convert.ToInt32(Value);
-
-            if (PixelSpawner.Inventory.CardInventory[1].Count != 0)
-            {
-                Card lastArrmy = PixelSpawner.Inventory.CardInventory[1][PixelSpawner.Inventory.CardInventory[1].Count - 1];
-                int lastValueArrmy = Convert.ToInt32(lastArrmy.Value);
-
-                if (lastValueArrmy <= thisValueEnemy)
-                {
-                    PixelSpawner.Inventory.RemoveCard(1, PixelSpawner.Inventory.CardInventory[1][PixelSpawner.Inventory.CardInventory[1].Count - 1]);
-                }
-                actionsForCard = actions.Deleted;
-                DrawBorder(PixelSpawner.selectColor);
-
-                PixelManager.SelectNear();
-
-                PixelSpawner.stats.MyStatistics["CountOfKills"]++;
-            }
-            else if (PixelSpawner.Inventory.CardInventory[0].Count != 0)
-            {
-                PixelSpawner.Inventory.RemoveCard(0, PixelSpawner.Inventory.CardInventory[0][PixelSpawner.Inventory.CardInventory[0].Count - 1]);               
-                actionsForCard = actions.Deleted;
-                DrawBorder(PixelSpawner.selectColor);
-
-                PixelManager.SelectNear();
-
-                PixelSpawner.stats.MyStatistics["CountOfKills"]++;
-            }
-            else
-            {
-                PixelSpawner.nowLocation = PixelSpawner.location.GameOver;
-                PixelManager.NextLevl();
-            }
-
-        }
-        else if (actionsForCard == actions.Deleted)
-        {
-            PixelSpawner.Inventory.AddCard(2, this);
-            if (PixelSpawner.controlModNow == PixelSpawner.controlMod.Keyboard) PixelSpawner.FindCard(PixelSpawner.axes.Up, true, false, true);
-
-            PixelSpawner.stats.MyStatistics["CountOfPickUp"]++;
-        }
+    {       
     }
     public void KillCard(Card card)
     {

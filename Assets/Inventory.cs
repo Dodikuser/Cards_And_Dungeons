@@ -219,6 +219,4 @@ public class Inventory
         ActivSlot = (ActivSlot == CardInventory[1]) ? CardInventory[2] : CardInventory[1];
         if (ActivSlot.Count > 0) ActivSlot[ActivSlot.Count - 1].DrawBorder(Color.red);
     }
-
-
 }

@@ -13,8 +13,7 @@ internal class Case : Card
     {
         actionsForCard = actions.Visible;
     }
-    //public int countOfCardContains { get; set; }
-
+    
     public override void VisibleRender(int? limit = null)
     {
         DrawBorder(Color.magenta);
